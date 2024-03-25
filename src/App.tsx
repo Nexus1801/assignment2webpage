@@ -16,16 +16,7 @@ function App() {
 
     return (
         <>
-            <div>
-                <a href="https://vitejs.dev" target="_blank">
-                    <img src={viteLogo} className="logo" alt="Vite logo"/>
-                </a>
-                <a href="https://react.dev" target="_blank">
-                    <img src={reactLogo} className="logo react" alt="React logo"/>
-                </a>
-            </div>
-            <>My First Vite/React Program</>
-            <Intro username=""/>
+            <Intro name="Alexander Lap and Tri Vien Le"/>
             <Title title=""/>
             <h3>All hobbies for Alexander Lap and Tri Vien Le</h3>
             <List list=""/>
