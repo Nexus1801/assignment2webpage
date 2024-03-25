@@ -6,7 +6,7 @@ function List(props) {
 
     return (
         <ul>
-            <li>Cooking</li>
+        <li>Cooking</li>
             <li>Sleeping</li>
             <li>Ultimate Frisbee</li>
             <li>Gaming</li>
