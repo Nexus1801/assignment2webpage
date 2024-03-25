@@ -21,7 +21,7 @@ function App() {
             <h3>All hobbies for Alexander Lap and Tri Vien Le</h3>
             <List/>
             <h3>Hobbies Table</h3>
-            <Table/>
+            <center><Table/></center>
             <Form/>
         </>
     )
