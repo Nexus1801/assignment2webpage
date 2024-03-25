@@ -20,7 +20,7 @@ function App() {
                     <img src={reactLogo} className="logo react" alt="React logo" />
                 </a>
             </div>
-            <h1>My First Vite/React Program</h1>
+            <>My First Vite/React Program</>
             <Intro username = ""/>
             <Title title = ""/>
             <div className="card">
