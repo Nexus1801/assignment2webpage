@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import './list.css'
 
 function List(props) {
     const [list] = useState(props.list);
