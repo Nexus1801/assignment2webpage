@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import './intro.tsx'
 import './title.tsx'
@@ -17,7 +15,10 @@ function App() {
     return (
         <>
             <Intro name="Alexander Lap and Tri Vien Le"/>
-            <Title title=""/>
+            <Title about="Hello, I'm Alexander Lap. I enjoy gaming in my free time. My interest are cooking, gym, sleeping, gaming,
+            and ultimate frisbee."/>
+            <Title about="Hello! My name is Tri Vien Le. I am a CS Major. I live in Chicago, Illinois.
+            I love going to the gym, playing sports, video games, and hanging out with friends."/>
             <h3>All hobbies for Alexander Lap and Tri Vien Le</h3>
             <List list=""/>
             <h3>Hobbies Table</h3>
