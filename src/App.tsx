@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './list.css'
 import './title.tsx'
+import title from "./title.tsx";
 import './intro.tsx'
 import './list.tsx'
 import './list.css'
@@ -24,12 +25,14 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+        <title>name</title>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
+
         </p>
       </div>
       <p className="read-the-docs">
