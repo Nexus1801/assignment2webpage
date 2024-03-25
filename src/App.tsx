@@ -3,7 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import './intro.tsx'
+import './title.tsx'
 import Intro from "./intro.tsx";
+import Title from "./title.tsx";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -19,7 +21,8 @@ function App() {
                 </a>
             </div>
             <h1>My First Vite/React Program</h1>
-            <Intro username = "Alexander"/>
+            <Intro username = ""/>
+            <Title title = ""/>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}

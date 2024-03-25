@@ -12,4 +12,4 @@ function Title(props) {
     );
 }
 
-export default Intro;
+export default Title;
