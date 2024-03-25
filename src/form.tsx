@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
 import './App.css';
 
-function Form(props) {
-    const [form] = useState(props.form);
+function Form() {
 
     return (
         <form>

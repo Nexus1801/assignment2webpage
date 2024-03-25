@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
 import './App.css';
 
-function Table(props){
-    const[table] = useState(props.table);
-
+function Table(){
     return(
         <table>
             <tr>
