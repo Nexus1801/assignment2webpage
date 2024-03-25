@@ -5,7 +5,7 @@ function Title(props) {
     const [title] = useState(props.title);
 
     return (
-        <p style="font-size: 20px;">
+        <p>
             Hello, I'm Alexander Lap. I enjoy gaming in my free time. My interest are cooking, gym, sleeping, gaming,
             and ultimate frisbee.]
         </p>
