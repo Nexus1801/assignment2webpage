@@ -6,6 +6,7 @@ import './intro.tsx'
 import './title.tsx'
 import Intro from "./intro.tsx";
 import Title from "./title.tsx";
+import Table from "./table.tsx";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -23,6 +24,8 @@ function App() {
             <>My First Vite/React Program</>
             <Intro username = ""/>
             <Title title = ""/>
+            <h2>Hobbies table for Alexander Lap and Tri Vien Le</h2>
+            <Table table =""/>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
