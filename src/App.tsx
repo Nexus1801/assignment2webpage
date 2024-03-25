@@ -7,7 +7,9 @@ import './title.tsx'
 import './list.tsx'
 import Intro from "./intro.tsx";
 import Title from "./title.tsx";
-import List from "./list.tsx"
+import List from "./list.tsx";
+import Table from "./table.tsx";
+import Form from "./form.tsx";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -16,16 +18,20 @@ function App() {
         <>
             <div>
                 <a href="https://vitejs.dev" target="_blank">
-                    <img src={viteLogo} className="logo" alt="Vite logo" />
+                    <img src={viteLogo} className="logo" alt="Vite logo"/>
                 </a>
                 <a href="https://react.dev" target="_blank">
-                    <img src={reactLogo} className="logo react" alt="React logo" />
+                    <img src={reactLogo} className="logo react" alt="React logo"/>
                 </a>
             </div>
             <>My First Vite/React Program</>
-            <Intro username = ""/>
-            <Title title = ""/>
-            <List list = ""/>
+            <Intro username=""/>
+            <Title title=""/>
+            <h3>All hobbies for Alexander Lap and Tri Vien Le</h3>
+            <List list=""/>
+            <h3>Hobbies Table</h3>
+            <Table table=""/>
+            <Form form=""/>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
