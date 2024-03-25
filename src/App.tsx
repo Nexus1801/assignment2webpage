@@ -7,7 +7,8 @@ import './title.tsx'
 import './list.tsx'
 import Intro from "./intro.tsx";
 import Title from "./title.tsx";
-import List from "./list.tsx"
+import List from "./list.tsx";
+import Table from "./table.tsx";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -26,6 +27,9 @@ function App() {
             <Intro username = ""/>
             <Title title = ""/>
             <List list = ""/>
+
+            <h2>Hobby Table for Alexander Lap and Tri Vien Le</h2>
+            <Table table = ""/>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
