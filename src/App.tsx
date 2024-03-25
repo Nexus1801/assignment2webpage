@@ -4,8 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './intro.tsx'
 import './title.tsx'
+import './list.tsx'
 import Intro from "./intro.tsx";
 import Title from "./title.tsx";
+import List from "./list.tsx"
 
 function App() {
     const [count, setCount] = useState(0)
@@ -23,6 +25,7 @@ function App() {
             <>My First Vite/React Program</>
             <Intro username = ""/>
             <Title title = ""/>
+            <List list = ""/>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}

@@ -1,17 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="">
 
-    <body>
-    <header>
-    <h1>Alexander Lap - gaming</h1>
-</header>
-<main>
-    <section>
-        <h2>About Me</h2>
-        <p style = "font-size: 20px;">
-            Hello, I'm Alexander Lap. I enjoy gaming in my free time. My interest are cooking, gym, sleeping, gaming, and ultimate frisbee.]
-        </p>
-    </section>
     <section>
         <h2>Hobby Details</h2>
         <ul>
